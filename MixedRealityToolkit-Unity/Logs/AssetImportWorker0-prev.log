@@ -1,0 +1,851 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63250
+Successfully changed project path to: /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity
+/Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 49.26 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 3.30 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56570
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002064 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.81 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (449ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (303ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.34 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  0.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3455 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (360.8 KB). Loaded Objects now: 3908.
+Memory consumption went from 236.0 MB to 235.6 MB.
+Total: 2.671375 ms (FindLiveObjects: 0.137334 ms CreateObjectMapping: 0.044542 ms MarkObjects: 2.316000 ms  DeleteObjects: 0.172834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159103.735353 seconds.
+  path: Assets/MixedRealityToolkit.Generated
+  artifactKey: Guid(c1c01afb94fd545418df55d42f97dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated using Guid(c1c01afb94fd545418df55d42f97dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547bf851290725023da8a97da0c3b047') in 0.005303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MRTK/Examples
+  artifactKey: Guid(e435a39b851a42cc949d90b7f4b83137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples using Guid(e435a39b851a42cc949d90b7f4b83137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b49b6c57a115ac423cc072c8ebd27f9') in 0.000698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/Examples/MRTK.Examples.asmdef
+  artifactKey: Guid(46ec937f2368478f92e0e97b791e88ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/MRTK.Examples.asmdef using Guid(46ec937f2368478f92e0e97b791e88ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6895eb7098d0426c6c4a4e229830f6b') in 0.076138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.727322 seconds.
+  path: Assets/MRTK/Examples/Demos
+  artifactKey: Guid(cd94fe83eea94c3f8483254816c39f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos using Guid(cd94fe83eea94c3f8483254816c39f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe13ed54645348ce7d424e1b6f34671') in 0.001783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.868204 seconds.
+  path: Assets/MRTK/Examples/Demos/Input
+  artifactKey: Guid(d1e70cbe0774cc24889f90766934827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input using Guid(d1e70cbe0774cc24889f90766934827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63424423adbdb6d9f9af0c0df34b4e8b') in 0.002310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.150755 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes
+  artifactKey: Guid(a5c1db19ceed7e644aefcf2b7060933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes using Guid(a5c1db19ceed7e644aefcf2b7060933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e62d398be4135b29457f66fdfa213d') in 0.001712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.634486 seconds.
+  path: Assets/MRTK/Examples/Experimental
+  artifactKey: Guid(82c284801471c0a4ea588765a88caf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental using Guid(82c284801471c0a4ea588765a88caf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f244ff13dc2d3145d8f16d64529094f1') in 0.001137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.114093 seconds.
+  path: Assets/MRTK/Examples/Common
+  artifactKey: Guid(99de592199e4eff4d8cbd6b035e94107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Common using Guid(99de592199e4eff4d8cbd6b035e94107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e52b08f4a28ef6f9e1582900f158fc') in 0.001873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.361120 seconds.
+  path: Assets/MRTK/Examples/Common/Scripts
+  artifactKey: Guid(a0aa83dab773e2b4ab976df976841f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Common/Scripts using Guid(a0aa83dab773e2b4ab976df976841f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fed7da520ba275a2176217b897acec') in 0.001421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.789102 seconds.
+  path: Assets/MRTK/Examples/StandardAssets
+  artifactKey: Guid(0a077ce9547f4627b1a08665a839e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets using Guid(0a077ce9547f4627b1a08665a839e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bb6e8de917a88ff32eec14f5f80b7a') in 0.001822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.393710 seconds.
+  path: Assets/MRTK/Examples/Demos/Boundary
+  artifactKey: Guid(ce454e69132341f1a385572a16bb53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Boundary using Guid(ce454e69132341f1a385572a16bb53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55469c8a5106ebb60ae396ef9fa810b') in 0.001370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808295 seconds.
+  path: Assets/MRTK/Examples/Demos/Boundary/Scenes
+  artifactKey: Guid(d876d7a982924783b3a262e60bfe66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Boundary/Scenes using Guid(d876d7a982924783b3a262e60bfe66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd2fc64faf308e60600fa2cda6c46a3') in 0.001024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682569 seconds.
+  path: Assets/MRTK/Examples/Demos/Boundary/Scenes/BoundaryVisualizationExample.unity
+  artifactKey: Guid(35b95b3c4099413d88322156538b340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Boundary/Scenes/BoundaryVisualizationExample.unity using Guid(35b95b3c4099413d88322156538b340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39500ad6ee43187256ae99489edeac52') in 0.001191 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001120 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28052b000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 3407 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (334.0 KB). Loaded Objects now: 3912.
+Memory consumption went from 236.0 MB to 235.7 MB.
+Total: 3.136625 ms (FindLiveObjects: 0.172875 ms CreateObjectMapping: 0.052042 ms MarkObjects: 2.770583 ms  DeleteObjects: 0.140375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.2 KB). Loaded Objects now: 3912.
+Memory consumption went from 165.4 MB to 165.1 MB.
+Total: 15.147375 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.045625 ms MarkObjects: 14.760833 ms  DeleteObjects: 0.141333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.3 KB). Loaded Objects now: 3912.
+Memory consumption went from 165.4 MB to 165.1 MB.
+Total: 2.290458 ms (FindLiveObjects: 0.113541 ms CreateObjectMapping: 0.041042 ms MarkObjects: 2.054541 ms  DeleteObjects: 0.080958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001038 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x177cef000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (6ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3407 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (333.7 KB). Loaded Objects now: 3916.
+Memory consumption went from 235.1 MB to 234.8 MB.
+Total: 2.694625 ms (FindLiveObjects: 0.142250 ms CreateObjectMapping: 0.046125 ms MarkObjects: 2.374667 ms  DeleteObjects: 0.130833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.30 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.4 KB). Loaded Objects now: 3916.
+Memory consumption went from 165.7 MB to 165.3 MB.
+Total: 13.992167 ms (FindLiveObjects: 0.196250 ms CreateObjectMapping: 0.044250 ms MarkObjects: 13.620417 ms  DeleteObjects: 0.130875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1476.268133 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Textures/IconMRTKLogo.png
+  artifactKey: Guid(74ebfa89af37aba43b08982d7f97eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Textures/IconMRTKLogo.png using Guid(74ebfa89af37aba43b08982d7f97eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb52659f64e776d26192318d4452c4a1') in 0.621318 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.4 KB). Loaded Objects now: 3919.
+Memory consumption went from 170.6 MB to 170.3 MB.
+Total: 13.472959 ms (FindLiveObjects: 0.210542 ms CreateObjectMapping: 0.043833 ms MarkObjects: 13.101750 ms  DeleteObjects: 0.116458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.634086 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Textures/IconMRTKLogo.png
+  artifactKey: Guid(74ebfa89af37aba43b08982d7f97eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Textures/IconMRTKLogo.png using Guid(74ebfa89af37aba43b08982d7f97eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7204efd63bb782e8692e6559610ea') in 0.033016 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.08 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.4 KB). Loaded Objects now: 3919.
+Memory consumption went from 170.6 MB to 170.2 MB.
+Total: 8.665500 ms (FindLiveObjects: 0.210083 ms CreateObjectMapping: 0.050042 ms MarkObjects: 8.279000 ms  DeleteObjects: 0.126042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  graphicsApiMask: 2048 -> 2304
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.4 KB). Loaded Objects now: 3919.
+Memory consumption went from 170.6 MB to 170.2 MB.
+Total: 10.057458 ms (FindLiveObjects: 0.190250 ms CreateObjectMapping: 0.041209 ms MarkObjects: 9.688625 ms  DeleteObjects: 0.136875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (334.1 KB). Loaded Objects now: 3919.
+Memory consumption went from 171.0 MB to 170.6 MB.
+Total: 7.278625 ms (FindLiveObjects: 0.186291 ms CreateObjectMapping: 0.043000 ms MarkObjects: 6.905375 ms  DeleteObjects: 0.143666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.5 KB). Loaded Objects now: 3919.
+Memory consumption went from 170.9 MB to 170.6 MB.
+Total: 6.922833 ms (FindLiveObjects: 0.172084 ms CreateObjectMapping: 0.043958 ms MarkObjects: 6.567375 ms  DeleteObjects: 0.139083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.5 KB). Loaded Objects now: 3919.
+Memory consumption went from 170.9 MB to 170.6 MB.
+Total: 7.360083 ms (FindLiveObjects: 0.193583 ms CreateObjectMapping: 0.045917 ms MarkObjects: 6.982333 ms  DeleteObjects: 0.137750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1022.426134 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/MixedRealityShaderUtils.cginc
+  artifactKey: Guid(dfab24eea71ce3745be340d7a24fe8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/MixedRealityShaderUtils.cginc using Guid(dfab24eea71ce3745be340d7a24fe8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c0c7d8744025100337d4769aa3d870') in 0.076681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.534233 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Prefabs/Text/3DTextSelawik.prefab
+  artifactKey: Guid(2d145caa42b44bd42aac79a42eba3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Prefabs/Text/3DTextSelawik.prefab using Guid(2d145caa42b44bd42aac79a42eba3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde3710b200e22f31065c27c5a18c8db') in 0.073779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(c56bfdcf5c850a246a31dfc330710d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(c56bfdcf5c850a246a31dfc330710d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7243f90f2f62813392d148b7a1d5fb3a') in 0.063270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Sprites/DefaultIconsSpriteSheet.psd
+  artifactKey: Guid(20f25674b9512834f88938d45ed495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Sprites/DefaultIconsSpriteSheet.psd using Guid(20f25674b9512834f88938d45ed495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a15bb4f068dfab231b524d4175892b0') in 0.865430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.616069 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Shaders/FingerTipCursor.shader
+  artifactKey: Guid(713bac42f937fad4da6ed48657c681c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Shaders/FingerTipCursor.shader using Guid(713bac42f937fad4da6ed48657c681c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80c854a5e3e002ae90a19d0411bb783') in 0.022742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189149 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader
+  artifactKey: Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader using Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb3e0223aa5dc65e59fa2c906c0632f') in 0.001284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.247843 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Shaders/HandTriangles.shader
+  artifactKey: Guid(aca12b5bed90b92448a88757df739294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Shaders/HandTriangles.shader using Guid(aca12b5bed90b92448a88757df739294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc780068b793f94d60b240ba8c11d32d') in 0.008888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.366832 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/InstancedColored.shader
+  artifactKey: Guid(d199a2ca60343bb49ad9a41ddb45a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/InstancedColored.shader using Guid(d199a2ca60343bb49ad9a41ddb45a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98155815d2109ba06d9f8bea2be4179c') in 0.001778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.728810 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/DepthBufferPostProcess.shader
+  artifactKey: Guid(8e3074f33703cbb4186e9b6c2c958fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/DepthBufferPostProcess.shader using Guid(8e3074f33703cbb4186e9b6c2c958fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd2ca6df6f47224f8bdbcb86fe66cde') in 0.002116 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.22 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (333.9 KB). Loaded Objects now: 3925.
+Memory consumption went from 196.5 MB to 196.2 MB.
+Total: 7.396916 ms (FindLiveObjects: 0.186958 ms CreateObjectMapping: 0.045125 ms MarkObjects: 7.010375 ms  DeleteObjects: 0.153875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 554.631374 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Meshes/Sliders/Button_Oval_Concave_12x24mm_optimized.fbx
+  artifactKey: Guid(fa3a0f81e3a63bd4db13ad99b3858f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Meshes/Sliders/Button_Oval_Concave_12x24mm_optimized.fbx using Guid(fa3a0f81e3a63bd4db13ad99b3858f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b259a29bad37071b4d45dea574ba98f') in 0.644683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputPointerProfile.asset
+  artifactKey: Guid(48aa63a9725047b28d4137fd0834bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputPointerProfile.asset using Guid(48aa63a9725047b28d4137fd0834bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6257e70805e8f1e4f1acb873bb3d7136') in 0.057315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpeechCommandsProfile.asset
+  artifactKey: Guid(e8d0393e66374dae9646851a57dc6bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpeechCommandsProfile.asset using Guid(e8d0393e66374dae9646851a57dc6bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ff8e32f93be4e0d2f6aa30645b3fa9') in 0.001815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/Dictation/Dictation.MixedRealityToolkitConfigurationProfile.asset
+  artifactKey: Guid(3f86fe3b9012da240b1ebd3dcec7c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/Dictation/Dictation.MixedRealityToolkitConfigurationProfile.asset using Guid(3f86fe3b9012da240b1ebd3dcec7c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7a4dd6280a9d26a4b7bdf7b7037421') in 0.132119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSimulationProfile.asset
+  artifactKey: Guid(41478039094d47641bf4e09c20e61a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSimulationProfile.asset using Guid(41478039094d47641bf4e09c20e61a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d82981d1cdd4afed867a5efa98f6ab') in 0.001803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/Dictation/Dictation.MixedRealityInputSystemProfile.asset
+  artifactKey: Guid(f01a8ddcc32be3d45aa46e1136131a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/Dictation/Dictation.MixedRealityInputSystemProfile.asset using Guid(f01a8ddcc32be3d45aa46e1136131a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe3a8e0c9e6b63b36ddc08219a2d58') in 0.021236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset
+  artifactKey: Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset using Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f60c380eaeb3ecfd1749180a04d4dd9') in 0.002541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset
+  artifactKey: Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset using Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69f74af955e7111c6bc17d342e2e989') in 0.011793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityGesturesProfile.asset
+  artifactKey: Guid(bd7829a9b29409045a745b5a18299291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityGesturesProfile.asset using Guid(bd7829a9b29409045a745b5a18299291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb0b703b0c8b546f8bd07346842e784') in 0.001075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityEyeTrackingProfile.asset
+  artifactKey: Guid(2d87dd11b18f700449c9dab320d19b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityEyeTrackingProfile.asset using Guid(2d87dd11b18f700449c9dab320d19b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a4c13bdb5b9c64a531cc0afb4da451') in 0.001567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset
+  artifactKey: Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset using Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f5cd8820973dfa4a69349f49f39d53') in 0.023729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MRTK/Extensions/HandPhysicsService/Profiles/HandPhysicsMixedRealityToolkitConfigurationProfile.asset
+  artifactKey: Guid(ec6c5962fb980c041854a25f84d6f2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Extensions/HandPhysicsService/Profiles/HandPhysicsMixedRealityToolkitConfigurationProfile.asset using Guid(ec6c5962fb980c041854a25f84d6f2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c6258c618840ddc940139d0f44214') in 0.030053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.277914 seconds.
+  path: Assets/MRTK/Core/Inspectors/MixedRealityShaderGUI.cs
+  artifactKey: Guid(5c455a0029df0144a8d8bd9b27f781eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Core/Inspectors/MixedRealityShaderGUI.cs using Guid(5c455a0029df0144a8d8bd9b27f781eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316a047fa6b769e9e35479cd6a23325a') in 0.196994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.091120 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader
+  artifactKey: Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader using Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3624fb7912ab883c9322a3527b48e468') in 0.010139 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.44 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (338.4 KB). Loaded Objects now: 3968.
+Memory consumption went from 210.6 MB to 210.2 MB.
+Total: 8.657625 ms (FindLiveObjects: 0.194958 ms CreateObjectMapping: 0.048584 ms MarkObjects: 8.257583 ms  DeleteObjects: 0.155958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241.156044 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader
+  artifactKey: Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Shaders/MixedRealityStandard.shader using Guid(5bdea20278144b11916d77503ba1467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efd0deea680a76aead497163722a87f') in 0.019615 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (318.4 KB). Loaded Objects now: 3968.
+Memory consumption went from 210.6 MB to 210.2 MB.
+Total: 8.342209 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.042958 ms MarkObjects: 7.964542 ms  DeleteObjects: 0.156250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 421.727980 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Prefabs/ArticulatedHandMesh.prefab
+  artifactKey: Guid(a86f479797fea8f4189f924b3b6ad979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Prefabs/ArticulatedHandMesh.prefab using Guid(a86f479797fea8f4189f924b3b6ad979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d98985975dbc9666e517415a573373') in 0.586242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/BoundingBoxHandleWhite.mat
+  artifactKey: Guid(986558eab447a9847bbe138149edc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/BoundingBoxHandleWhite.mat using Guid(986558eab447a9847bbe138149edc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6c16206d09c4da822d2a4e58afaa8') in 1.243668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Models/MRTK_BoundingBox_TranslateHandle.fbx
+  artifactKey: Guid(332c8596f773d4c4db31915a9df86221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Models/MRTK_BoundingBox_TranslateHandle.fbx using Guid(332c8596f773d4c4db31915a9df86221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd307b8e8d5ded06ab7ed37b7ca90f249') in 0.025585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab
+  artifactKey: Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab using Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eb605c0581fb005ea359aabfffd344') in 0.109200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MRTK/Examples/Demos/PulseShader/Profile/PulseShaderHandTrackingProfile.asset
+  artifactKey: Guid(3189a0eb11936a646845d8b6c984ff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/PulseShader/Profile/PulseShaderHandTrackingProfile.asset using Guid(3189a0eb11936a646845d8b6c984ff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7382493c48a076384d0d46db70c0bfac') in 0.058280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_HandTrackingLost.wav
+  artifactKey: Guid(8f7f0c05bba74364797a5379fff83f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Audio/sound_HandTrackingLost.wav using Guid(8f7f0c05bba74364797a5379fff83f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe45c973710e58b4b72142122d3d092d') in 0.866245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.272171 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking
+  artifactKey: Guid(aa4995968651f784f8280c6e0997232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking using Guid(aa4995968651f784f8280c6e0997232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9763c8d76304daf40b27facba21a1e2') in 0.001248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.107936 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes
+  artifactKey: Guid(d26243c9f26f7934aa6f7563c2908601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes using Guid(d26243c9f26f7934aa6f7563c2908601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bf348c74c812120d8abaab038c3d9b') in 0.001505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.813352 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionExamples.unity
+  artifactKey: Guid(3dd4a396b5225f8469b9a1eb608bfa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionExamples.unity using Guid(3dd4a396b5225f8469b9a1eb608bfa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8e1dc7e42df1f5b7c98043257adcb') in 0.000929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.053243 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionGestureEventsExample.unity
+  artifactKey: Guid(d90bb2e7d3f991a439eb4685859a9bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionGestureEventsExample.unity using Guid(d90bb2e7d3f991a439eb4685859a9bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978ec3fff60d2e558c46a7cf2e5d460') in 0.001277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.017097 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionRecordArticulatedHandPose.unity
+  artifactKey: Guid(bb5e8437c0c71d4468e0b70fe0c114c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionRecordArticulatedHandPose.unity using Guid(bb5e8437c0c71d4468e0b70fe0c114c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba504dfeb36efaac7f100fdef6ee06f') in 0.001073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305009 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionTouchablesExample.unity
+  artifactKey: Guid(8fc886df468b93f429bb6fb0ad560f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandInteractionTouchablesExample.unity using Guid(8fc886df468b93f429bb6fb0ad560f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14bab47a6efd782b63625b66ba70de1') in 0.001720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.253177 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandMenuExamples.unity
+  artifactKey: Guid(2792ec9767804e644906ab978f2eed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/HandMenuExamples.unity using Guid(2792ec9767804e644906ab978f2eed23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411dfe8c5a884bacfdc189f9c844924e') in 0.001302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146451 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/LeapMotionHandTrackingExample.unity
+  artifactKey: Guid(9d80a41fc22097340adf65097d69d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/LeapMotionHandTrackingExample.unity using Guid(9d80a41fc22097340adf65097d69d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c531a007daa2c36524c9f1a9cdb0a84') in 0.001203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.136025 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/LeapMotionOrientationExample.unity
+  artifactKey: Guid(642bce88d55020944ae26627851c6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/LeapMotionOrientationExample.unity using Guid(642bce88d55020944ae26627851c6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c125b62d80f21ee74e0d28d6ecb03ba') in 0.000906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307269 seconds.
+  path: Assets/MRTK/Examples/Demos/HandTracking/Scenes/NearMenuExamples.unity
+  artifactKey: Guid(bf3eb3415bffceb41810526380c2c71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/HandTracking/Scenes/NearMenuExamples.unity using Guid(bf3eb3415bffceb41810526380c2c71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25393eca2544f4254b25468c721052e') in 0.001271 seconds 
