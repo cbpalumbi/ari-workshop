@@ -2,72 +2,72 @@ ScriptsOnlyBuild:
   usedScripts:
     Microsoft.MixedReality.Toolkit.Async.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner
-    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
-    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
-    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
-    Microsoft.MixedReality.Toolkit.Examples.dll:
-    - Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType
-    Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll:
-    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.HandPhysicsServiceProfile
-    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.JointKinematicBody
-    Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll:
-    - Microsoft.MixedReality.Toolkit.Extensions.SceneTransitions.SceneTransitionServiceProfile
-    Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll:
-    - Microsoft.MixedReality.Toolkit.LeapMotion.Input.LeapMotionDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
-    Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll:
-    - Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.SceneUnderstandingObserverProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.SDK.dll:
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
-    - Microsoft.MixedReality.Toolkit.Input.BaseCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
     - Microsoft.MixedReality.Toolkit.Input.MeshCursor
-    - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Input.MousePointer
     - Microsoft.MixedReality.Toolkit.Input.PokePointer
     - Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer
-    - Microsoft.MixedReality.Toolkit.Input.ScreenSpaceMousePointer
     - Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer
-    - Microsoft.MixedReality.Toolkit.Input.SpeechInputHandler
     - Microsoft.MixedReality.Toolkit.Input.SpherePointer
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerVisual
+    - Microsoft.MixedReality.Toolkit.Input.TouchHandler
     - Microsoft.MixedReality.Toolkit.Input.TouchPointer
     - Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
+    - Microsoft.MixedReality.Toolkit.UI.AppBar
+    - Microsoft.MixedReality.Toolkit.UI.AppBarButton
     - Microsoft.MixedReality.Toolkit.UI.Billboard
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoxDisplayConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.LinksConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.ProximityEffectConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.RotationHandlesConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.ScaleHandlesConfiguration
     - Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper
     - Microsoft.MixedReality.Toolkit.UI.ButtonIconSet
+    - Microsoft.MixedReality.Toolkit.UI.ButtonSize
+    - Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
-    - Microsoft.MixedReality.Toolkit.UI.DestroyOnAnimationComplete
+    - Microsoft.MixedReality.Toolkit.UI.CursorContextObjectManipulator
+    - Microsoft.MixedReality.Toolkit.UI.FaceUserConstraint
+    - Microsoft.MixedReality.Toolkit.UI.FollowMeToggle
+    - Microsoft.MixedReality.Toolkit.UI.HandInteractionPanZoom
     - Microsoft.MixedReality.Toolkit.UI.Interactable
+    - Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection
+    - Microsoft.MixedReality.Toolkit.UI.LoaderController
     - Microsoft.MixedReality.Toolkit.UI.MinMaxScaleConstraint
     - Microsoft.MixedReality.Toolkit.UI.MoveAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
+    - Microsoft.MixedReality.Toolkit.UI.PinchSlider
+    - Microsoft.MixedReality.Toolkit.UI.PressableButton
     - Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2
     - Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar
-    - Microsoft.MixedReality.Toolkit.UI.PulseShader.PulseShaderSpatialMeshHandler
+    - Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorObjectDisplay
+    - Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorOrbsRotator
     - Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint
-    - Microsoft.MixedReality.Toolkit.UI.SpeechConfirmationTooltip
+    - Microsoft.MixedReality.Toolkit.UI.SliderSounds
     - Microsoft.MixedReality.Toolkit.UI.States
     - Microsoft.MixedReality.Toolkit.UI.Theme
+    - Microsoft.MixedReality.Toolkit.UI.ToolTip
     - Microsoft.MixedReality.Toolkit.UI.ToolTipBackgroundMesh
     - Microsoft.MixedReality.Toolkit.UI.ToolTipConnector
     - Microsoft.MixedReality.Toolkit.UI.ToolTipLineHighlight
     - Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
-    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.Follow
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint
-    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
@@ -79,6 +79,9 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
     - Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
     - Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable
+    - Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI
+    Microsoft.MixedReality.Toolkit.Tools.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolboxWindow
     Microsoft.MixedReality.Toolkit.dll:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile
@@ -92,7 +95,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionsProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystemProfile
-    - Microsoft.MixedReality.Toolkit.Input.MixedRealityMouseInputProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealitySpeechCommandsProfile
     - Microsoft.MixedReality.Toolkit.MixedRealityCameraProfile
@@ -101,7 +103,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkit
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkitConfigurationProfile
     - Microsoft.MixedReality.Toolkit.Physics.DistorterGravity
-    - Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile
     - Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider
@@ -113,6 +114,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.ProximityLight
     - Microsoft.MixedReality.Toolkit.Utilities.RectangleLineDataProvider
     - Microsoft.MixedReality.Toolkit.Utilities.SimpleLineDataProvider
+    - Microsoft.MixedReality.Toolkit.Utilities.SplineDataProvider
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -135,6 +137,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -168,6 +171,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Image
   serializedClasses:
     Microsoft.MixedReality.Toolkit:
     - Microsoft.MixedReality.Toolkit.CameraSystem.MixedRealityCameraSettingsConfiguration
@@ -201,6 +205,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue
     - Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty
     - Microsoft.MixedReality.Toolkit.Utilities.Easing
+    - Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode
     Microsoft.MixedReality.Toolkit.Services.InputSimulation:
     - Microsoft.MixedReality.Toolkit.Input.KeyBinding
     Unity.TextMeshPro:
@@ -277,161 +282,161 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1966}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 1972}
     - Class: 114
-      Script: {instanceID: 2320}
+      Script: {instanceID: 2120}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2326}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 2920}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 2936}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 3046}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3220}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3334}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 3664}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 3776}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 3800}
+      Script: {instanceID: 3782}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 3854}
+      Script: {instanceID: 3834}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4236}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4256}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 4386}
+      Script: {instanceID: 4384}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 4392}
     - Class: 114
-      Script: {instanceID: 4426}
+      Script: {instanceID: 4394}
     - Class: 114
-      Script: {instanceID: 4440}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4478}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4486}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 4496}
+      Script: {instanceID: 4492}
     - Class: 114
-      Script: {instanceID: 4580}
+      Script: {instanceID: 4502}
     - Class: 114
-      Script: {instanceID: 4660}
+      Script: {instanceID: 4586}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4666}
     - Class: 114
-      Script: {instanceID: 4900}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5154}
+      Script: {instanceID: 4910}
     - Class: 114
-      Script: {instanceID: 5256}
+      Script: {instanceID: 5160}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 5262}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 5362}
     - Class: 114
-      Script: {instanceID: 5454}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5624}
+      Script: {instanceID: 5610}
     - Class: 114
-      Script: {instanceID: 5688}
+      Script: {instanceID: 5630}
     - Class: 114
-      Script: {instanceID: 5706}
+      Script: {instanceID: 5694}
     - Class: 114
-      Script: {instanceID: 5798}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 5854}
+      Script: {instanceID: 5804}
     - Class: 114
-      Script: {instanceID: 6050}
+      Script: {instanceID: 5860}
     - Class: 114
-      Script: {instanceID: 6070}
+      Script: {instanceID: 6056}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6218}
     - Class: 114
-      Script: {instanceID: 6440}
+      Script: {instanceID: 6356}
     - Class: 114
-      Script: {instanceID: 6578}
+      Script: {instanceID: 6446}
     - Class: 114
-      Script: {instanceID: 6802}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 6806}
+      Script: {instanceID: 6808}
     - Class: 114
-      Script: {instanceID: 6848}
+      Script: {instanceID: 6812}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6946}
     - Class: 114
-      Script: {instanceID: 7000}
+      Script: {instanceID: 7006}
     - Class: 114
-      Script: {instanceID: 7032}
+      Script: {instanceID: 7038}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7294}
     - Class: 114
-      Script: {instanceID: 7424}
+      Script: {instanceID: 7430}
     - Class: 114
-      Script: {instanceID: 7446}
+      Script: {instanceID: 7452}
     - Class: 114
-      Script: {instanceID: 7594}
+      Script: {instanceID: 7600}
     - Class: 114
-      Script: {instanceID: 7818}
+      Script: {instanceID: 7824}
     - Class: 114
-      Script: {instanceID: 7858}
+      Script: {instanceID: 7864}
     - Class: 114
-      Script: {instanceID: 8026}
+      Script: {instanceID: 8032}
     - Class: 114
-      Script: {instanceID: 8188}
+      Script: {instanceID: 8194}
     - Class: 114
-      Script: {instanceID: 8278}
+      Script: {instanceID: 8284}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8304}
     - Class: 114
-      Script: {instanceID: 8330}
+      Script: {instanceID: 8336}
     - Class: 114
-      Script: {instanceID: 8342}
+      Script: {instanceID: 8380}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
