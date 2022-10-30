@@ -36,6 +36,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
     - Microsoft.MixedReality.Toolkit.UI.DestroyOnAnimationComplete
     - Microsoft.MixedReality.Toolkit.UI.Interactable
+    - Microsoft.MixedReality.Toolkit.UI.MinMaxScaleConstraint
     - Microsoft.MixedReality.Toolkit.UI.MoveAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     - Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2
@@ -48,6 +49,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ToolTipLineHighlight
     - Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.Follow
+    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraint
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
@@ -152,7 +154,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.CameraSystem.MixedRealityCameraSettingsConfiguration
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursorContextData
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursorStateData
-    - Microsoft.MixedReality.Toolkit.Input.KeywordAndResponse
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMapping
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationSetting
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityGestureMapping
@@ -259,8 +260,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1710}
     - Class: 114
-      Script: {instanceID: 1828}
-    - Class: 114
       Script: {instanceID: 1966}
     - Class: 114
       Script: {instanceID: 2114}
@@ -272,8 +271,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2564}
     - Class: 114
       Script: {instanceID: 2568}
-    - Class: 114
-      Script: {instanceID: 2622}
     - Class: 114
       Script: {instanceID: 2682}
     - Class: 114
@@ -289,8 +286,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3052}
-    - Class: 114
       Script: {instanceID: 3128}
     - Class: 114
       Script: {instanceID: 3166}
@@ -302,8 +297,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3464}
     - Class: 114
       Script: {instanceID: 3510}
-    - Class: 114
-      Script: {instanceID: 3570}
     - Class: 114
       Script: {instanceID: 3664}
     - Class: 114
@@ -317,8 +310,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4028}
-    - Class: 114
       Script: {instanceID: 4168}
     - Class: 114
       Script: {instanceID: 4170}
@@ -328,6 +319,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4256}
     - Class: 114
       Script: {instanceID: 4378}
+    - Class: 114
+      Script: {instanceID: 4386}
+    - Class: 114
+      Script: {instanceID: 4388}
     - Class: 114
       Script: {instanceID: 4426}
     - Class: 114
@@ -341,8 +336,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4580}
     - Class: 114
-      Script: {instanceID: 4618}
-    - Class: 114
       Script: {instanceID: 4660}
     - Class: 114
       Script: {instanceID: 4670}
@@ -353,19 +346,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5180}
-    - Class: 114
       Script: {instanceID: 5256}
     - Class: 114
       Script: {instanceID: 5356}
     - Class: 114
-      Script: {instanceID: 5382}
-    - Class: 114
       Script: {instanceID: 5444}
     - Class: 114
       Script: {instanceID: 5454}
-    - Class: 114
-      Script: {instanceID: 5600}
     - Class: 114
       Script: {instanceID: 5604}
     - Class: 114
@@ -378,8 +365,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5798}
     - Class: 114
       Script: {instanceID: 5854}
-    - Class: 114
-      Script: {instanceID: 6040}
     - Class: 114
       Script: {instanceID: 6050}
     - Class: 114
