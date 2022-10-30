@@ -2,24 +2,39 @@ ScriptsOnlyBuild:
   usedScripts:
     Microsoft.MixedReality.Toolkit.Async.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner
+    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Examples.dll:
     - Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType
+    Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll:
+    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.HandPhysicsServiceProfile
+    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.JointKinematicBody
+    Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.dll:
+    - Microsoft.MixedReality.Toolkit.Extensions.SceneTransitions.SceneTransitionServiceProfile
+    Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll:
+    - Microsoft.MixedReality.Toolkit.LeapMotion.Input.LeapMotionDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
+    Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll:
+    - Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.SceneUnderstandingObserverProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.SDK.dll:
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
+    - Microsoft.MixedReality.Toolkit.Input.BaseCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
     - Microsoft.MixedReality.Toolkit.Input.MeshCursor
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Input.MousePointer
     - Microsoft.MixedReality.Toolkit.Input.PokePointer
     - Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer
+    - Microsoft.MixedReality.Toolkit.Input.ScreenSpaceMousePointer
     - Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer
     - Microsoft.MixedReality.Toolkit.Input.SpeechInputHandler
     - Microsoft.MixedReality.Toolkit.Input.SpherePointer
@@ -40,6 +55,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.MoveAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     - Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2
+    - Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar
+    - Microsoft.MixedReality.Toolkit.UI.PulseShader.PulseShaderSpatialMeshHandler
     - Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.SpeechConfirmationTooltip
     - Microsoft.MixedReality.Toolkit.UI.States
@@ -75,6 +92,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionsProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystemProfile
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityMouseInputProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealitySpeechCommandsProfile
     - Microsoft.MixedReality.Toolkit.MixedRealityCameraProfile
@@ -83,6 +101,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkit
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkitConfigurationProfile
     - Microsoft.MixedReality.Toolkit.Physics.DistorterGravity
+    - Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile
     - Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider
