@@ -7,15 +7,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4531002451213572952, guid: c45a5ba9c5bfc41f895981dd28c82eac,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7d28a0975ff4514ca98304c59eca8c7, type: 2}
+    - target: {fileID: 4531002451214670232, guid: c45a5ba9c5bfc41f895981dd28c82eac,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 1f1f5acb11797504e845d109ce2f6fe1, type: 3}
     - target: {fileID: 4531002451215566232, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_Name
-      value: furniture-obj
+      value: chair
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}

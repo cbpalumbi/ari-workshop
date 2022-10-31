@@ -40,6 +40,7 @@
      <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/Firebase/StartCrashlytics.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/HandsActiveChecker.cs" />
+     <Compile Include="Assets/My_Scripts/FurnitureMenu.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/SceneManager/Scripts/BouncingBallMgr.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/PassthroughProjectionSurface.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/CowController.cs" />
@@ -168,7 +169,6 @@
      <Compile Include="Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/AnchorUIManager.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/Passthrough/Scripts/SelectivePassthroughExperience.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
-     <Compile Include="Assets/My_Scripts/FurnitureMenu.cs" />
      <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Oculus/SampleFramework/Usage/SceneManager/Shaders/Hidden.shader" />
@@ -243,6 +243,7 @@
      <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_DiffBump.shader" />
      <None Include="Assets/MRTK/Extensions/License.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <None Include="Assets/Chair/Read Me.txt" />
      <None Include="Assets/MRTK/StandardAssets/Shaders/MixedRealityShaderUtils.cginc" />
      <None Include="Assets/Oculus/SampleFramework/license.txt" />
     <Reference Include="UnityEngine">
