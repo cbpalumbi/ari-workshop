@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - FurnitureMenu
     Microsoft.MixedReality.Toolkit.Async.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.AsyncCoroutineRunner
     Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Diagnostics.Editor.MixedRealityDiagnosticsSystemProfileInspector
     - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
     - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerMappingProfileInspector
     - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerVisualizationProfileInspector
@@ -232,7 +235,13 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: FurnitureMenu
+    methodName: SpawnCouch
+  - assembly: Assembly-CSharp
+    fullTypeName: FurnitureMenu
+    methodName: SpawnCouch
   sceneClasses:
     Assets/workingscene.unity:
     - Class: 1
@@ -455,6 +464,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10932}
     - Class: 114
       Script: {instanceID: 10944}
+    - Class: 114
+      Script: {instanceID: 57268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -6740,10 +6751,10 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 54e60df365d3627fe37f036936d4a082
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MenuController
+    className: FurnitureMenu
   platform: 13
   scenePathNames:
   - Assets/workingscene.unity

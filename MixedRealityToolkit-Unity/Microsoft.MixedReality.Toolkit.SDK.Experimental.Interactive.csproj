@@ -712,12 +712,6 @@
     <Reference Include="netstandard">
         <HintPath>/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
@@ -731,6 +725,14 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
       <Project>{15f2627c-e432-7eab-85b4-5a7aab6079e4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{31f53d1a-bd84-0650-6d90-5743821a219f}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{b1e92bc8-9f64-82d2-33a5-ef724cfc3fe1}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

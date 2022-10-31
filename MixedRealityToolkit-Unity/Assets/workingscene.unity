@@ -280,7 +280,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu Two
+  m_text: Chair
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce,
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 238052502}
   - component: {fileID: 238052501}
   m_Layer: 0
-  m_Name: ButtonThree
+  m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu Three
+  m_text: Lamp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce,
@@ -2076,6 +2076,7 @@ GameObject:
   - component: {fileID: 297982961}
   - component: {fileID: 297982963}
   - component: {fileID: 297982962}
+  - component: {fileID: 297982964}
   m_Layer: 0
   m_Name: NearMenu3x1(Clone)
   m_TagString: Untagged
@@ -2160,6 +2161,26 @@ MonoBehaviour:
   additionalOffset: {x: 0, y: 0, z: 0}
   additionalRotation: {x: 0, y: 0, z: 0}
   updateSolvers: 1
+--- !u!114 &297982964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297982960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5101be3fcc94aa089c3dfec1cbc5cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  couchPrefab: {fileID: 7820872171236554765, guid: f20b4f283858b44d68957a995222a5dd,
+    type: 3}
+  chairPrefab: {fileID: 2340486210513503928, guid: 50f27a84fec234fcbb234f5c509747ac,
+    type: 3}
+  lampPrefab: {fileID: 1810285655603429907, guid: 95cd13ad6b2e44be3a6b43595364fdba,
+    type: 3}
+  xPlacementOffset: 1
+  zPlacementOffset: 0
 --- !u!1 &305439354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,7 +2281,7 @@ GameObject:
   - component: {fileID: 347594078}
   - component: {fileID: 347594077}
   m_Layer: 0
-  m_Name: ButtonOne
+  m_Name: Couch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2465,9 +2486,9 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ToggleProfiler
+      - m_Target: {fileID: 297982964}
+        m_TargetAssemblyTypeName: FurnitureMenu, Assembly-CSharp
+        m_MethodName: SpawnCouch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2722,6 +2743,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 291bf9326e517b0489c2ee53d0a6a63f,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 297982964}
+        m_TargetAssemblyTypeName: FurnitureMenu, Assembly-CSharp
+        m_MethodName: SpawnCouch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3168,7 +3201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu One
+  m_text: Couch
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce,
@@ -3636,7 +3669,7 @@ PrefabInstance:
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.71
+      value: 2.91
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
@@ -3646,7 +3679,7 @@ PrefabInstance:
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.014
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
@@ -3656,17 +3689,17 @@ PrefabInstance:
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000006657903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4531002451215997368, guid: c45a5ba9c5bfc41f895981dd28c82eac,
         type: 3}
@@ -7252,7 +7285,7 @@ GameObject:
   - component: {fileID: 1492003739}
   - component: {fileID: 1492003738}
   m_Layer: 0
-  m_Name: ButtonTwo
+  m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
