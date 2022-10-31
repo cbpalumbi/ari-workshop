@@ -108,6 +108,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:OCULUSINTEGRATION_PRESENT
 -define:OCULUS_ENABLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -304,6 +305,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Microsoft.MixedReality.Toolkit.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Microsoft.MixedReality.Toolkit.SDK.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Microsoft.MixedReality.Toolkit.Services.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.VR.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Oculus.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
@@ -324,7 +326,7 @@
 /nowarn:1701
 /nowarn:1702
 -warnaserror+
--nowarn:1701,1702
+-nowarn:1701,1702,618
 /utf8output
 /preferreduilang:en-US
 

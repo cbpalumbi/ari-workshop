@@ -119,6 +119,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:OCULUSINTEGRATION_PRESENT
 -define:DISABLE_BUILTIN_INPUT_SYSTEM_OCULUS
 -define:UNITY_INPUT_SYSTEM_ENABLE_VR
 -define:UNITY_INPUT_SYSTEM_ENABLE_XR
@@ -690,7 +691,7 @@
 /nowarn:1701
 /nowarn:1702
 -warnaserror+
--nowarn:1701,1702
+-nowarn:1701,1702,618
 /utf8output
 /preferreduilang:en-US
 -warn:0

@@ -119,8 +119,10 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:OCULUSINTEGRATION_PRESENT
 -define:USING_XR_MANAGEMENT
 -define:USING_XR_SDK_OCULUS
+-define:USING_XR_SDK_OPENXR
 -define:USING_COMPATIBLE_OCULUS_XR_PLUGIN_VERSION
 -define:PRIORITIZE_OCULUS_XR_SETTINGS
 -define:OVR_UNITY_ASSET_STORE
@@ -345,6 +347,8 @@
 -r:"/Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Oculus.VR.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Oculus.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
@@ -385,7 +389,7 @@
 /nowarn:1701
 /nowarn:1702
 -warnaserror+
--nowarn:1701,1702
+-nowarn:1701,1702,618
 /utf8output
 /preferreduilang:en-US
 

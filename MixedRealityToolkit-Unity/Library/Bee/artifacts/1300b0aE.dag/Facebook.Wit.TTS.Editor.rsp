@@ -119,6 +119,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:OCULUSINTEGRATION_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Users/christabellapalumbi/Desktop/Unity Editors/2021.3.11f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
@@ -366,7 +367,7 @@
 /nowarn:1701
 /nowarn:1702
 -warnaserror+
--nowarn:1701,1702
+-nowarn:1701,1702,618
 /utf8output
 /preferreduilang:en-US
 

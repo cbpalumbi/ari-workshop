@@ -12,3 +12,4 @@ int string game_view_content_description 0x7f040006
 int style BaseUnityTheme 0x7f050000
 int style UnityThemeSelector 0x7f050001
 int style UnityThemeSelector_Translucent 0x7f050002
+int xml network_sec_config 0x7f060000
