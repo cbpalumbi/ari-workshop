@@ -55,6 +55,7 @@
      <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MoviePlayerSample.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportDestination.cs" />
+     <Compile Include="Assets/Lamp Assets/Scripts/Lamp.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Haptics/LocalizedHaptics.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainButtonVisualController.cs" />
      <Compile Include="Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiBoolInspector.cs" />

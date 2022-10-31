@@ -105,42 +105,42 @@ ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRea
 		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:60-81
 	android:name
 		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-59
-meta-data#com.samsung.android.vr.application.mode
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-97
-	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:71-94
-	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-70
-meta-data#com.unity.xr.oculus.LowOverheadMode
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-91
-	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:67-88
-	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-66
-meta-data#com.unity.xr.oculus.LateLatching
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-88
-	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:64-85
-	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-63
-meta-data#com.unity.xr.oculus.LateLatchingDebug
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-93
-	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:69-90
-	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-68
-meta-data#com.oculus.supportedDevices
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-90
-	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:59-87
-	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-58
 meta-data#com.oculus.handtracking.frequency
-ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-87
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-87
 	android:value
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:65-84
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:65-84
 	android:name
-		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-64
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-64
+meta-data#com.samsung.android.vr.application.mode
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-97
+	android:value
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:71-94
+	android:name
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-70
+meta-data#com.unity.xr.oculus.LowOverheadMode
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-91
+	android:value
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:67-88
+	android:name
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-66
+meta-data#com.unity.xr.oculus.LateLatching
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-88
+	android:value
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:64-85
+	android:name
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-63
+meta-data#com.unity.xr.oculus.LateLatchingDebug
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-93
+	android:value
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:69-90
+	android:name
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-68
+meta-data#com.oculus.supportedDevices
+ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-90
+	android:value
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:59-87
+	android:name
+		ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-58
 uses-feature#0x00030000
 ADDED from /Users/christabellapalumbi/Documents/Game Projects/MRTK test/MixedRealityToolkit-Unity/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:3-52
 	android:glEsVersion
