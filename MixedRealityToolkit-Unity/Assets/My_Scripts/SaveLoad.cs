@@ -1,18 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
-public class SaveLoad : MonoBehaviour
+public static class SaveLoad
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static void SaveRoom() {
+        BinaryFormatter formatter = new BinaryFormatter();
+        string path = Path.Combine(Application.persistentDataPath, "room.txt");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        FileStream stream = new FileStream(path, FileMode.Create);
+        RoomData data = new RoomData();
+
+        formatter.Serialize(stream, data);
+        stream.Close();
+    } 
+
+    public static RoomData LoadRoom() {
+        string path = Path.Combine(Application.persistentDataPath, "room.txt");
+        if (File.Exists(path)) {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
+
+            RoomData data = formatter.Deserialize(stream) as RoomData;
+            stream.Close();
+
+            return data;
+
+        } else {
+            Debug.LogError("Save file not found in " + path);
+            return null;
+        }
     }
 }

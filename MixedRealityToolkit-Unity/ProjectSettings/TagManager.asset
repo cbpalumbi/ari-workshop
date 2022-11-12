@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - FurnitureMenu
+  - Furniture
   layers:
   - Default
   - TransparentFX

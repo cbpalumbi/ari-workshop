@@ -29,4 +29,42 @@ public class FurnitureMenu : MonoBehaviour
         Vector3 pos = new Vector3(gameObject.transform.position.x + xPlacementOffset, yPos3, gameObject.transform.position.z + zPlacementOffset);
         GameObject.Instantiate(lampPrefab, pos, Quaternion.identity, parent);
     }
+
+    public void SaveTheRoom() {
+        SaveLoad.SaveRoom();
+    }
+
+    public void LoadTheRoom() {
+        RoomData data = SaveLoad.LoadRoom();
+        foreach(FurnitureData f in data.furniture) {
+            SetUpLoadedFurniture(f);
+        }
+    }
+
+    private void SetUpLoadedFurniture(FurnitureData f) {
+        
+        GameObject prefab;
+        switch(f.furnitureType) {
+            case 0:
+                prefab = couchPrefab;
+            break;
+            case 1:
+                prefab = chairPrefab;
+            break;
+            case 2:
+                prefab = lampPrefab;
+            break;
+            default:
+                prefab = null;
+                Debug.LogError("Could not read furniture type from saved data");
+            break;
+        }
+
+        GameObject obj = GameObject.Instantiate(prefab, parent);
+        obj.transform.position = new Vector3(f.position[0], f.position[1], f.position[2]);
+        obj.transform.rotation = Quaternion.identity;
+        obj.transform.Rotate(0, f.rotationY, 0);
+        obj.transform.localScale = new Vector3(f.scale[0], f.scale[1], f.scale[2]);
+        
+    }
 }
