@@ -35,6 +35,9 @@ public class FurnitureMenu : MonoBehaviour
     }
 
     public void LoadTheRoom() {
+        foreach(Transform child in parent) {
+            Object.Destroy(child.gameObject);
+        }
         RoomData data = SaveLoad.LoadRoom();
         foreach(FurnitureData f in data.furniture) {
             SetUpLoadedFurniture(f);
@@ -44,15 +47,19 @@ public class FurnitureMenu : MonoBehaviour
     private void SetUpLoadedFurniture(FurnitureData f) {
         
         GameObject prefab;
+        float yOffSet = 0.0f;
         switch(f.furnitureType) {
             case 0:
                 prefab = couchPrefab;
+                yOffSet = yPos;
             break;
             case 1:
                 prefab = chairPrefab;
+                yOffSet = yPos2;
             break;
             case 2:
                 prefab = lampPrefab;
+                yOffSet = yPos3;
             break;
             default:
                 prefab = null;
@@ -61,10 +68,9 @@ public class FurnitureMenu : MonoBehaviour
         }
 
         GameObject obj = GameObject.Instantiate(prefab, parent);
-        obj.transform.position = new Vector3(f.position[0], f.position[1], f.position[2]);
+        obj.transform.position = new Vector3(f.position[0], yOffSet, f.position[2]);
         obj.transform.rotation = Quaternion.identity;
         obj.transform.Rotate(0, f.rotationY, 0);
         obj.transform.localScale = new Vector3(f.scale[0], f.scale[1], f.scale[2]);
-        
     }
 }

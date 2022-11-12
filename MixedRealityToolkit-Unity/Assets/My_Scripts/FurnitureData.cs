@@ -13,8 +13,8 @@ public class FurnitureData
     public FurnitureData(Furniture f) {
         position = new float[3];
         position[0] = f.gameObject.transform.position.x;
-        position[1] = f.gameObject.transform.position.x;
-        position[2] = f.gameObject.transform.position.x;
+        position[1] = f.gameObject.transform.position.y;
+        position[2] = f.gameObject.transform.position.z;
 
         rotationY = f.gameObject.transform.eulerAngles.y;
 
