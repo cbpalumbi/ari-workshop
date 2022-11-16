@@ -14,7 +14,7 @@ public class RoomData
         foreach (GameObject obj in furniturePieces) {
             Furniture script = obj.GetComponent<Furniture>();
             furniture[counter] = new FurnitureData(script);
-            Debug.Log("saving furniture item at pos " + script.gameObject.transform.position);
+            //Debug.Log("saving furniture item at pos " + script.gameObject.transform.position);
             counter++;
         }
     }
