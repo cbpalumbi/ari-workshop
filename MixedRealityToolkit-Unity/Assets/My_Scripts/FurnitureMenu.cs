@@ -35,13 +35,17 @@ public class FurnitureMenu : MonoBehaviour
     }
 
     public void LoadTheRoom() {
-        foreach(Transform child in parent) {
+        foreach(Transform child in parent) { // clears existing furniture
             Object.Destroy(child.gameObject);
         }
         RoomData data = SaveLoad.LoadRoom();
         foreach(FurnitureData f in data.furniture) {
             SetUpLoadedFurniture(f);
         }
+    }
+
+    public void DeleteSaveFilesOnClick() {
+        SaveLoad.DeleteSaveFiles();
     }
 
     private void SetUpLoadedFurniture(FurnitureData f) {

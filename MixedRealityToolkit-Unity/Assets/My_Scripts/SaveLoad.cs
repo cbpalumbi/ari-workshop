@@ -31,4 +31,14 @@ public static class SaveLoad
             return null;
         }
     }
+
+    public static void DeleteSaveFiles() {
+        string path = Application.persistentDataPath;
+
+        var folder = Directory.GetFiles(path);
+ 
+        for (int i = 0; i < folder.Length; i++) {
+            File.Delete(folder[i]);
+        }
+    }
 }
