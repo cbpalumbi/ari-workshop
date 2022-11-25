@@ -52,6 +52,14 @@ public class FurnitureMenu : MonoBehaviour
         SaveLoad.SaveRoomVariant();
     }
 
+    public void SaveHistoryOnClick() {
+        SaveLoad.SaveHistory();
+    }
+
+    public void LoadHistoryOnClick() {
+        SaveLoad.LoadHistory();
+    }
+
     private void SetUpLoadedFurniture(FurnitureData f) {
         
         GameObject prefab;

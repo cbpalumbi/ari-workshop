@@ -5174,7 +5174,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 297982964}
         m_TargetAssemblyTypeName: FurnitureMenu, Assembly-CSharp
-        m_MethodName: SaveTheRoom
+        m_MethodName: SaveHistoryOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6641,7 +6641,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 297982964}
         m_TargetAssemblyTypeName: FurnitureMenu, Assembly-CSharp
-        m_MethodName: LoadTheRoom
+        m_MethodName: LoadHistoryOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8510,6 +8510,52 @@ Transform:
   m_Father: {fileID: 261913991}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1074078178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1074078179}
+  - component: {fileID: 1074078180}
+  m_Layer: 0
+  m_Name: HistoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1074078179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074078178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 781, y: 429.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1074078180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074078178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e259d326bae2446e9ba74a0a9f180d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  history: {fileID: 0}
+  currentRoom: 0
 --- !u!1 &1087739255
 GameObject:
   m_ObjectHideFlags: 0
