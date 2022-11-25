@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
+MixedRealityToolkit-Unity/[Ll]ibrary/
+MixedRealityToolkit-Unity/[Tt]emp/
+MixedRealityToolkit-Unity/[Oo]bj/
+MixedRealityToolkit-Unity/[Bb]uild/
+MixedRealityToolkit-Unity/[Bb]uilds/
+MixedRealityToolkit-Unity/[Ll]ogs/
+MixedRealityToolkit-Unity/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

@@ -41,4 +41,8 @@ public static class SaveLoad
             File.Delete(folder[i]);
         }
     }
+
+    public static void SaveRoomVariant() {
+        // need to remake whole save thing but with additional array entry
+    }
 }

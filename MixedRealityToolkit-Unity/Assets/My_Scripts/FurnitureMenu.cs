@@ -48,6 +48,10 @@ public class FurnitureMenu : MonoBehaviour
         SaveLoad.DeleteSaveFiles();
     }
 
+    public void SaveRoomVariantOnClick() {
+        SaveLoad.SaveRoomVariant();
+    }
+
     private void SetUpLoadedFurniture(FurnitureData f) {
         
         GameObject prefab;
