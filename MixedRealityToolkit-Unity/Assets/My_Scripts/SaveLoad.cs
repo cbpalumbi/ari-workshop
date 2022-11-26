@@ -74,25 +74,8 @@ public static class SaveLoad
             Debug.LogError("Manager.history.data.rooms is null");
             return;
         }
-        manager.History.data.rooms[manager.currentRoom] = new RoomData(); 
+        manager.History.data.rooms[manager.CurrentRoom] = new RoomData(); 
     } 
-
-    // public static RoomData LoadRoom() {
-    //     string path = Path.Combine(Application.persistentDataPath, "room.txt");
-    //     if (File.Exists(path)) {
-    //         BinaryFormatter formatter = new BinaryFormatter();
-    //         FileStream stream = new FileStream(path, FileMode.Open);
-
-    //         RoomData data = formatter.Deserialize(stream) as RoomData;
-    //         stream.Close();
-
-    //         return data;
-
-    //     } else {
-    //         Debug.LogError("Save file not found in " + path);
-    //         return null;
-    //     }
-    // }
 
     public static void DeleteSaveFiles() {
         string path = Application.persistentDataPath;

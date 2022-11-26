@@ -7,7 +7,7 @@ public class HistoryManager : MonoBehaviour
 {
     [HideInInspector]
     public History history;
-    public int currentRoom = 0; // should only go 0 to 7
+    private int currentRoom = 0; // should only go 0 to 7
     [HideInInspector]
     public int lowestUnusedRoom = 1;
     public FurnitureMenu menu;
@@ -48,8 +48,9 @@ public class HistoryManager : MonoBehaviour
             Debug.Log("yes history to load from files on startup");
             history = new History(dataFromFiles);
             currentRoom = dataFromFiles.currentRoom;
-            foreach(FurnitureData f in history.data.rooms[dataFromFiles.currentRoom].furniture) {
-                menu.SetUpLoadedFurniture(f);
+            RoomData room = history.data.rooms[dataFromFiles.currentRoom];
+            for (int i = 0; i < room.furnitureCount; i++) {
+                menu.SetUpLoadedFurniture(room.furniture[i]);
             }
             UpdateRoomText();
         }

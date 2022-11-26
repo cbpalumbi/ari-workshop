@@ -16,7 +16,7 @@ public class HistoryData
 
     public HistoryData(HistoryManager manager) {
         rooms = new RoomData[8];
-        currentRoom = manager.currentRoom;
+        currentRoom = manager.CurrentRoom;
         lowestUnusedRoom = manager.lowestUnusedRoom;
         
         History h = manager.History;
@@ -31,7 +31,7 @@ public class HistoryData
         }
 
         // modify only the room you're in 
-        rooms[manager.currentRoom] = new RoomData();
+        rooms[manager.CurrentRoom] = new RoomData();
 
     }
 }

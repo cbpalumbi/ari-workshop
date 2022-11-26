@@ -3059,6 +3059,7 @@ MonoBehaviour:
   xPlacementOffset: 0
   zPlacementOffset: 2
   parent: {fileID: 1561683388}
+  manager: {fileID: 1074078180}
 --- !u!1 &305439354
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,7 +8555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e259d326bae2446e9ba74a0a9f180d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentRoom: 0
   lowestUnusedRoom: 1
   menu: {fileID: 297982964}
   debugRoomText: {fileID: 1674325089}

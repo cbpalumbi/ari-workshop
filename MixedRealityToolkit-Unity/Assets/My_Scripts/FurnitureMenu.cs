@@ -10,6 +10,7 @@ public class FurnitureMenu : MonoBehaviour
     public float xPlacementOffset;
     public float zPlacementOffset;
     public Transform parent;
+    public HistoryManager manager;
 
     private float yPos = -1.534f; // TODO: change this to grab y coord of floor plane
     private float yPos2 = -1.242923f;
@@ -31,16 +32,25 @@ public class FurnitureMenu : MonoBehaviour
     }
 
     public void LoadTheRoom(RoomData room) {
+        ClearFurniture();
+        // foreach(FurnitureData f in room.furniture) {
+        //     SetUpLoadedFurniture(f);
+        // }
+        for (int i = 0; i < room.furnitureCount; i++) {
+            SetUpLoadedFurniture(room.furniture[i]);
+        }
+    }
+
+    private void ClearFurniture() {
         foreach(Transform child in parent) { // clears existing furniture
             Object.Destroy(child.gameObject);
-        }
-        foreach(FurnitureData f in room.furniture) {
-            SetUpLoadedFurniture(f);
         }
     }
 
     public void DeleteSaveFilesOnClick() {
         SaveLoad.DeleteSaveFiles();
+        manager.CurrentRoom = 0;
+        ClearFurniture();
     }
 
     public void SaveRoomVariantOnClick() {

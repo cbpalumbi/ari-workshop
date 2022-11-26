@@ -6,6 +6,7 @@ using UnityEngine;
 public class RoomData
 {
     public FurnitureData[] furniture;
+    public int furnitureCount = 0;
 
     public RoomData() {
         furniture = new FurnitureData[40];
@@ -17,5 +18,6 @@ public class RoomData
         
             counter++;
         }
+        furnitureCount = counter;
     }
 }
