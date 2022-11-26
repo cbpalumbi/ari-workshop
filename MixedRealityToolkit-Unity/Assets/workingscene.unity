@@ -8554,8 +8554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e259d326bae2446e9ba74a0a9f180d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  history: {fileID: 0}
   currentRoom: 0
+  menu: {fileID: 297982964}
 --- !u!1 &1087739255
 GameObject:
   m_ObjectHideFlags: 0

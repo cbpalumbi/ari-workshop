@@ -57,7 +57,7 @@ public class FurnitureMenu : MonoBehaviour
         LoadTheRoom(data.rooms[0]); // just loading room you're in for now 
     }
 
-    private void SetUpLoadedFurniture(FurnitureData f) {
+    public void SetUpLoadedFurniture(FurnitureData f) {
         
         GameObject prefab;
         float yOffSet = 0.0f;
