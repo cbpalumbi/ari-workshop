@@ -4,16 +4,23 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveLoad
 {
-    public static void SaveRoom() {
-        BinaryFormatter formatter = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, "room.txt");
 
-        FileStream stream = new FileStream(path, FileMode.Create);
-        RoomData data = new RoomData();
+    public static HistoryData LoadHistorySaveDataOnStartup() {
+        string path = Path.Combine(Application.persistentDataPath, "history.txt");
+        if (File.Exists(path)) {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
 
-        formatter.Serialize(stream, data);
-        stream.Close();
-    } 
+            HistoryData data = formatter.Deserialize(stream) as HistoryData;
+            stream.Close();
+
+            return data;
+
+        } else {
+            //Debug.LogError("Save file not found in " + path);
+            return null;
+        }
+    }
 
     public static void SaveHistory() {
         BinaryFormatter formatter = new BinaryFormatter();
@@ -31,7 +38,7 @@ public static class SaveLoad
         stream.Close();
     } 
 
-     public static HistoryData LoadHistory() {
+    public static HistoryData LoadHistory() {
         string path = Path.Combine(Application.persistentDataPath, "history.txt");
         if (File.Exists(path)) {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -47,6 +54,30 @@ public static class SaveLoad
             return null;
         }
     }
+
+    public static void SaveRoom() {
+        
+        // need to update history data 
+        HistoryManager manager = GameObject.Find("HistoryManager").GetComponent<HistoryManager>();
+        if (manager == null) {
+            Debug.LogError("Could not find history manager");
+            return;
+        }
+        if (manager.History == null) {
+            Debug.LogError("Manager.history is null");
+            return;
+        }
+        if (manager.History.data == null) {
+            Debug.LogError("Manager.history.data is null");
+            return;
+        }
+        if (manager.History.data.rooms == null) {
+            Debug.LogError("Manager.history.data.rooms is null");
+            return;
+        }
+        manager.History.data.rooms[manager.currentRoom] = new RoomData();
+        //SaveHistory();
+    } 
 
     public static RoomData LoadRoom() {
         string path = Path.Combine(Application.persistentDataPath, "room.txt");

@@ -30,16 +30,11 @@ public class FurnitureMenu : MonoBehaviour
         GameObject.Instantiate(lampPrefab, pos, Quaternion.identity, parent);
     }
 
-    public void SaveTheRoom() {
-        SaveLoad.SaveRoom();
-    }
-
-    public void LoadTheRoom() {
+    private void LoadTheRoom(RoomData room) {
         foreach(Transform child in parent) { // clears existing furniture
             Object.Destroy(child.gameObject);
         }
-        RoomData data = SaveLoad.LoadRoom();
-        foreach(FurnitureData f in data.furniture) {
+        foreach(FurnitureData f in room.furniture) {
             SetUpLoadedFurniture(f);
         }
     }
@@ -53,11 +48,13 @@ public class FurnitureMenu : MonoBehaviour
     }
 
     public void SaveHistoryOnClick() {
+        SaveLoad.SaveRoom();
         SaveLoad.SaveHistory();
     }
 
     public void LoadHistoryOnClick() {
-        SaveLoad.LoadHistory();
+        HistoryData data = SaveLoad.LoadHistory();
+        LoadTheRoom(data.rooms[0]); // just loading room you're in for now 
     }
 
     private void SetUpLoadedFurniture(FurnitureData f) {

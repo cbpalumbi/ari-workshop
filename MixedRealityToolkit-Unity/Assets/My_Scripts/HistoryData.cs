@@ -8,12 +8,13 @@ public class HistoryData
     public RoomData[] rooms;
 
     public HistoryData() {
-        
+        rooms = new RoomData[8];
     }
 
     public HistoryData(HistoryManager manager) {
+        rooms = new RoomData[8];
         
-        History h = manager.history;
+        History h = manager.History;
         if (h == null) {
             Debug.LogError("Existing history not found");
             return;
