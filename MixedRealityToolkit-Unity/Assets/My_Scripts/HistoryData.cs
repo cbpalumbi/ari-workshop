@@ -6,13 +6,18 @@ using UnityEngine;
 public class HistoryData
 {
     public RoomData[] rooms;
+    public int currentRoom;
+    public int lowestUnusedRoom;
 
     public HistoryData() {
         rooms = new RoomData[8];
+        currentRoom = 0;
     }
 
     public HistoryData(HistoryManager manager) {
         rooms = new RoomData[8];
+        currentRoom = manager.currentRoom;
+        lowestUnusedRoom = manager.lowestUnusedRoom;
         
         History h = manager.History;
         if (h == null) {

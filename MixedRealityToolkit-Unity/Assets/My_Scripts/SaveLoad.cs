@@ -74,8 +74,7 @@ public static class SaveLoad
             Debug.LogError("Manager.history.data.rooms is null");
             return;
         }
-        manager.History.data.rooms[manager.currentRoom] = new RoomData();
-        //SaveHistory();
+        manager.History.data.rooms[manager.currentRoom] = new RoomData(); 
     } 
 
     public static RoomData LoadRoom() {
@@ -106,6 +105,14 @@ public static class SaveLoad
     }
 
     public static void SaveRoomVariant() {
-        // need to remake whole save thing but with additional array entry
+        HistoryManager manager = GameObject.Find("HistoryManager").GetComponent<HistoryManager>();
+        if (manager.lowestUnusedRoom < 8) { // max 8 rooms
+            manager.currentRoom += 1;
+            manager.UpdateRoomText();
+        } else {
+            Debug.LogError("Trying to save more than 8 rooms");
+            return;
+        }
+        
     }
 }
