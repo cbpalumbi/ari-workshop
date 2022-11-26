@@ -6,8 +6,7 @@ using TMPro;
 public class HistoryManager : MonoBehaviour
 {
     [HideInInspector]
-    History history;
-    [HideInInspector]
+    public History history;
     public int currentRoom = 0; // should only go 0 to 7
     [HideInInspector]
     public int lowestUnusedRoom = 1;
@@ -23,6 +22,19 @@ public class HistoryManager : MonoBehaviour
         set
         {
             history = value;
+        }
+    }
+
+    public int CurrentRoom
+    {
+        get
+        {
+            return currentRoom;
+        }
+        set
+        {
+            currentRoom = value;
+            UpdateRoomText();
         }
     }
 
@@ -43,7 +55,7 @@ public class HistoryManager : MonoBehaviour
         }
     }
 
-    public void UpdateRoomText() {
+    private void UpdateRoomText() {
         debugRoomText.text = currentRoom.ToString();
     }
         

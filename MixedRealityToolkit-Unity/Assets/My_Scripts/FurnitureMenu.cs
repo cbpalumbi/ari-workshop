@@ -30,7 +30,7 @@ public class FurnitureMenu : MonoBehaviour
         GameObject.Instantiate(lampPrefab, pos, Quaternion.identity, parent);
     }
 
-    private void LoadTheRoom(RoomData room) {
+    public void LoadTheRoom(RoomData room) {
         foreach(Transform child in parent) { // clears existing furniture
             Object.Destroy(child.gameObject);
         }

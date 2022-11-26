@@ -77,22 +77,22 @@ public static class SaveLoad
         manager.History.data.rooms[manager.currentRoom] = new RoomData(); 
     } 
 
-    public static RoomData LoadRoom() {
-        string path = Path.Combine(Application.persistentDataPath, "room.txt");
-        if (File.Exists(path)) {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Open);
+    // public static RoomData LoadRoom() {
+    //     string path = Path.Combine(Application.persistentDataPath, "room.txt");
+    //     if (File.Exists(path)) {
+    //         BinaryFormatter formatter = new BinaryFormatter();
+    //         FileStream stream = new FileStream(path, FileMode.Open);
 
-            RoomData data = formatter.Deserialize(stream) as RoomData;
-            stream.Close();
+    //         RoomData data = formatter.Deserialize(stream) as RoomData;
+    //         stream.Close();
 
-            return data;
+    //         return data;
 
-        } else {
-            Debug.LogError("Save file not found in " + path);
-            return null;
-        }
-    }
+    //     } else {
+    //         Debug.LogError("Save file not found in " + path);
+    //         return null;
+    //     }
+    // }
 
     public static void DeleteSaveFiles() {
         string path = Application.persistentDataPath;
@@ -107,8 +107,7 @@ public static class SaveLoad
     public static void SaveRoomVariant() {
         HistoryManager manager = GameObject.Find("HistoryManager").GetComponent<HistoryManager>();
         if (manager.lowestUnusedRoom < 8) { // max 8 rooms
-            manager.currentRoom += 1;
-            manager.UpdateRoomText();
+            manager.CurrentRoom += 1;
         } else {
             Debug.LogError("Trying to save more than 8 rooms");
             return;

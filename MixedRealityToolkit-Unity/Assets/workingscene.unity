@@ -4790,7 +4790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &537460687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8555,6 +8555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentRoom: 0
+  lowestUnusedRoom: 1
   menu: {fileID: 297982964}
   debugRoomText: {fileID: 1674325089}
 --- !u!1 &1087739255
@@ -12631,7 +12632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb7b861ad21241348ebd1ded8e642c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 297982964}
+  manager: {fileID: 1074078180}
 --- !u!4 &1709719462
 Transform:
   m_ObjectHideFlags: 0
