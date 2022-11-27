@@ -33,9 +33,6 @@ public class FurnitureMenu : MonoBehaviour
 
     public void LoadTheRoom(RoomData room) {
         ClearFurniture();
-        // foreach(FurnitureData f in room.furniture) {
-        //     SetUpLoadedFurniture(f);
-        // }
         for (int i = 0; i < room.furnitureCount; i++) {
             SetUpLoadedFurniture(room.furniture[i]);
         }
@@ -51,6 +48,7 @@ public class FurnitureMenu : MonoBehaviour
         SaveLoad.DeleteSaveFiles();
         manager.CurrentRoom = 0;
         ClearFurniture();
+        manager.history = new History();
     }
 
     public void SaveRoomVariantOnClick() {
