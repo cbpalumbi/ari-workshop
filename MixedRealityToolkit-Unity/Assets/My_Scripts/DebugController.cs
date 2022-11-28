@@ -17,6 +17,10 @@ public class DebugController : MonoBehaviour
         }
     }
 
+    public void TestPrint() {
+        Debug.Log("hello");
+    }
+
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.J)) {

@@ -52,6 +52,7 @@ public class HistoryManager : MonoBehaviour
             Debug.Log("yes history to load from files on startup");
             history = new History(dataFromFiles);
             currentRoom = dataFromFiles.currentRoom;
+            lowestUnusedRoom = dataFromFiles.lowestUnusedRoom;
             RoomData room = history.data.rooms[dataFromFiles.currentRoom];
             for (int i = 0; i < room.furnitureCount; i++) {
                 menu.SetUpLoadedFurniture(room.furniture[i]);
