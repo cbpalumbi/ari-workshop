@@ -69,11 +69,27 @@ public class HistoryManager : MonoBehaviour
     }
 
     public void GenerateHistory() {
+        float couchOffset = menu.yPos;
+        float chairOffset = menu.yPos2;
         for (int i = 0; i < lowestUnusedRoom; i++) {
-            Debug.Log("spawning room viz");
+            // create plane
             float multiplier = 0.18f;
             Vector3 newPos = visualization.transform.position + (Vector3.forward * i * multiplier);
-            GameObject.Instantiate(roomPrefab, newPos, Quaternion.identity, visualization.transform);
+            GameObject floorPlane = GameObject.Instantiate(roomPrefab, newPos, Quaternion.identity, visualization.transform);
+
+            // spawn mini furniture
+            float fScale = 0.08f;
+            RoomData room = history.data.rooms[i];
+            for (int j = 0; j <  room.furnitureCount; j++) {
+                FurnitureData f = room.furniture[j];
+                GameObject prefab = f.furnitureType == 0 ? menu.couchPrefab : menu.chairPrefab;
+                
+                GameObject obj = GameObject.Instantiate(prefab, floorPlane.transform);
+                obj.transform.localPosition = new Vector3(f.position[0] * fScale, 0, f.position[2] * fScale);
+                obj.transform.rotation = Quaternion.identity;
+                obj.transform.Rotate(0, f.rotationY, 0);
+                //obj.transform.localScale = new Vector3(f.scale[0] * fScale, f.scale[1] * fScale, f.scale[2] * fScale);
+            }
         }
     }
         
