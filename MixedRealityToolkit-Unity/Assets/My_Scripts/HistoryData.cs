@@ -12,6 +12,7 @@ public class HistoryData
     public HistoryData() {
         rooms = new RoomData[8];
         currentRoom = 0;
+        lowestUnusedRoom = 1;
     }
 
     public HistoryData(HistoryManager manager) {

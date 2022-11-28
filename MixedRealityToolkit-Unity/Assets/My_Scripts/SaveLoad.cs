@@ -91,6 +91,7 @@ public static class SaveLoad
         HistoryManager manager = GameObject.Find("HistoryManager").GetComponent<HistoryManager>();
         if (manager.lowestUnusedRoom < 8) { // max 8 rooms
             manager.CurrentRoom += 1;
+            manager.lowestUnusedRoom += 1;
         } else {
             Debug.LogError("Trying to save more than 8 rooms");
             return;

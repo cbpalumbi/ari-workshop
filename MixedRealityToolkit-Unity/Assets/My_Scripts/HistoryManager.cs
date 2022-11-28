@@ -12,6 +12,8 @@ public class HistoryManager : MonoBehaviour
     public int lowestUnusedRoom = 1;
     public FurnitureMenu menu;
     public TextMeshProUGUI debugRoomText;
+    public GameObject visualization;
+    public GameObject roomPrefab;
 
     public History History
     {
@@ -39,6 +41,8 @@ public class HistoryManager : MonoBehaviour
     }
 
     void Start() {
+        ShowHistory(false);
+
         // load existing history if possible
         HistoryData dataFromFiles = SaveLoad.LoadHistorySaveDataOnStartup();
         if (dataFromFiles == null) {
@@ -58,6 +62,19 @@ public class HistoryManager : MonoBehaviour
 
     private void UpdateRoomText() {
         debugRoomText.text = currentRoom.ToString();
+    }
+
+    public void ShowHistory(bool show) {
+        visualization.SetActive(show);
+    }
+
+    public void GenerateHistory() {
+        for (int i = 0; i < lowestUnusedRoom; i++) {
+            Debug.Log("spawning room viz");
+            float multiplier = 0.18f;
+            Vector3 newPos = visualization.transform.position + (Vector3.forward * i * multiplier);
+            GameObject.Instantiate(roomPrefab, newPos, Quaternion.identity, visualization.transform);
+        }
     }
         
 }

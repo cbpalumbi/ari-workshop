@@ -23,8 +23,6 @@ public class DebugController : MonoBehaviour
             menu.SpawnCouch();
         } else if (Input.GetKeyUp(KeyCode.K)) {
             menu.SpawnChair();
-        } else if (Input.GetKeyUp(KeyCode.L)) {
-            menu.SpawnLamp();
         } else if (Input.GetKeyUp("0")) {
             manager.CurrentRoom = 0;
             menu.LoadTheRoom(manager.history.data.rooms[0]);

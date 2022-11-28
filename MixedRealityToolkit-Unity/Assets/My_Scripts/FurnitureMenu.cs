@@ -26,12 +26,8 @@ public class FurnitureMenu : MonoBehaviour
         GameObject.Instantiate(chairPrefab, pos, Quaternion.identity, parent);
     }
 
-    public void SpawnLamp() { 
-        Vector3 pos = new Vector3(gameObject.transform.position.x + xPlacementOffset, yPos3, gameObject.transform.position.z + zPlacementOffset);
-        GameObject.Instantiate(lampPrefab, pos, Quaternion.identity, parent);
-    }
-
     public void LoadTheRoom(RoomData room) {
+        manager.ShowHistory(false);
         ClearFurniture();
         for (int i = 0; i < room.furnitureCount; i++) {
             SetUpLoadedFurniture(room.furniture[i]);
@@ -63,6 +59,11 @@ public class FurnitureMenu : MonoBehaviour
     public void LoadHistoryOnClick() {
         HistoryData data = SaveLoad.LoadHistory();
         LoadTheRoom(data.rooms[0]); // just loading room you're in for now 
+    }
+
+    public void GenerateHistoryOnClick() {
+        manager.GenerateHistory();
+        manager.ShowHistory(true);
     }
 
     public void SetUpLoadedFurniture(FurnitureData f) {
