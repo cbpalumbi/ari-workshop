@@ -75,6 +75,8 @@ public static class SaveLoad
             return;
         }
         manager.History.data.rooms[manager.CurrentRoom] = new RoomData(); 
+        manager.ClearHistory();
+        manager.GenerateHistory();
     } 
 
     public static void DeleteSaveFiles() {

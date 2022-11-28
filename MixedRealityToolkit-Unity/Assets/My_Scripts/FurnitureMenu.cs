@@ -11,6 +11,7 @@ public class FurnitureMenu : MonoBehaviour
     public float zPlacementOffset;
     public Transform parent;
     public HistoryManager manager;
+    private bool isHistoryShowing = false;
 
     public float yPos = -1.534f; // TODO: change this to grab y coord of floor plane
     public float yPos2 = -1.242923f;
@@ -45,6 +46,7 @@ public class FurnitureMenu : MonoBehaviour
         manager.CurrentRoom = 0;
         ClearFurniture();
         manager.history = new History();
+        manager.ClearHistory();
     }
 
     public void SaveRoomVariantOnClick() {
@@ -62,8 +64,11 @@ public class FurnitureMenu : MonoBehaviour
     }
 
     public void GenerateHistoryOnClick() {
-        manager.GenerateHistory();
-        manager.ShowHistory(true);
+        if (!isHistoryShowing && manager.visualization.transform.childCount == 0) {
+            manager.GenerateHistory();
+        }
+        manager.ShowHistory(!isHistoryShowing);
+        isHistoryShowing = !isHistoryShowing;
     }
 
     public void SetUpLoadedFurniture(FurnitureData f) {
