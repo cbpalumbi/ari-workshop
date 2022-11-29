@@ -47,10 +47,8 @@ public class HistoryManager : MonoBehaviour
         // load existing history if possible
         HistoryData dataFromFiles = SaveLoad.LoadHistorySaveDataOnStartup();
         if (dataFromFiles == null) {
-            Debug.Log("no history to load from files on startup");
             history = new History();
         } else {
-            Debug.Log("yes history to load from files on startup");
             history = new History(dataFromFiles);
             currentRoom = dataFromFiles.currentRoom;
             lowestUnusedRoom = dataFromFiles.lowestUnusedRoom;
@@ -100,6 +98,7 @@ public class HistoryManager : MonoBehaviour
                 }
                 obj.transform.rotation = Quaternion.identity;
                 obj.transform.Rotate(0, f.rotationY, 0);
+                obj.tag = "Untagged"; // makes sure the miniatures aren't saved in the room data
             }
         }
     }
