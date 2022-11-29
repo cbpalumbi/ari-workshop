@@ -54,7 +54,10 @@ public class FurnitureMenu : MonoBehaviour
 
     public void SaveRoomVariantOnClick() {
         SaveLoad.SaveRoomVariant();
-        manager.ShowHistory(false);
+        if (isHistoryShowing) {
+            manager.ClearHistory(false);
+            manager.GenerateHistory();
+        }
     }
 
     public void SaveHistoryOnClick() {
@@ -64,7 +67,6 @@ public class FurnitureMenu : MonoBehaviour
 
     public void LoadHistoryOnClick() {
         HistoryData data = SaveLoad.LoadHistory();
-        //LoadTheRoom(data.rooms[0], true, ); // just loading room you're in for now 
     }
 
     public void GenerateHistoryOnClick() {

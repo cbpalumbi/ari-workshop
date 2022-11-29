@@ -70,11 +70,13 @@ public class HistoryManager : MonoBehaviour
         visualization.SetActive(show);
     }
 
-    public void ClearHistory() {
+    public void ClearHistory(bool hide = true) {
         foreach(Transform child in visualization.transform) { // clears existing furniture
             Object.Destroy(child.gameObject);
         }
-        ShowHistory(false);
+        if (hide) {
+            ShowHistory(false);
+        }
     }
 
     public void GenerateHistory() {
