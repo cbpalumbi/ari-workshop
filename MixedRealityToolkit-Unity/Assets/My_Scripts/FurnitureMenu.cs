@@ -27,12 +27,15 @@ public class FurnitureMenu : MonoBehaviour
         GameObject.Instantiate(chairPrefab, pos, Quaternion.identity, parent);
     }
 
-    public void LoadTheRoom(RoomData room) {
-        manager.ShowHistory(false);
+    public void LoadTheRoom(RoomData room, bool historyShouldShow, int roomIndex) {
+        if (!historyShouldShow) {
+            manager.ShowHistory(false);
+        }
         ClearFurniture();
         for (int i = 0; i < room.furnitureCount; i++) {
             SetUpLoadedFurniture(room.furniture[i]);
         }
+        manager.CurrentRoom = roomIndex;
     }
 
     private void ClearFurniture() {
@@ -51,6 +54,7 @@ public class FurnitureMenu : MonoBehaviour
 
     public void SaveRoomVariantOnClick() {
         SaveLoad.SaveRoomVariant();
+        manager.ShowHistory(false);
     }
 
     public void SaveHistoryOnClick() {
@@ -60,7 +64,7 @@ public class FurnitureMenu : MonoBehaviour
 
     public void LoadHistoryOnClick() {
         HistoryData data = SaveLoad.LoadHistory();
-        LoadTheRoom(data.rooms[0]); // just loading room you're in for now 
+        //LoadTheRoom(data.rooms[0], true, ); // just loading room you're in for now 
     }
 
     public void GenerateHistoryOnClick() {

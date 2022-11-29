@@ -7,7 +7,8 @@ public class HistoryManager : MonoBehaviour
 {
     [HideInInspector]
     public History history;
-    private int currentRoom = 0; // should only go 0 to 7
+    [HideInInspector]
+    public int currentRoom = 0; // should only go 0 to 7
     [HideInInspector]
     public int lowestUnusedRoom = 1;
     public FurnitureMenu menu;
@@ -82,6 +83,7 @@ public class HistoryManager : MonoBehaviour
             float multiplier = 0.3f;
             Vector3 newPos = visualization.transform.position + (Vector3.forward * i * multiplier);
             GameObject floorPlane = GameObject.Instantiate(roomPrefab, newPos, Quaternion.identity, visualization.transform);
+            floorPlane.GetComponent<RoomVisualization>().room = i;
 
             // spawn mini furniture
             RoomData room = history.data.rooms[i];

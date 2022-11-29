@@ -8302,6 +8302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e259d326bae2446e9ba74a0a9f180d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentRoom: 0
   lowestUnusedRoom: 1
   menu: {fileID: 297982964}
   debugRoomText: {fileID: 1674325089}
