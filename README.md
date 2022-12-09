@@ -11,3 +11,5 @@ Your layout and history will also be saved if you exit and reopen the app.
 
 https://user-images.githubusercontent.com/20174653/206793439-9564dc18-7cc8-48a6-9a06-8aed00d07a8f.mp4
 
+Chair and couch assets are from Unity Asset Store.
+
