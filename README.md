@@ -1,4 +1,4 @@
-# mrtk-project
+# VR interior design + version management demo
 
 I made this project as a starter task for entry into the Human-AI Lab at the University of Michigan. 
 The requirements were to make a VR app where the user could manipulate furniture items and save the room in various states.
